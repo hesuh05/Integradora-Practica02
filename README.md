@@ -14,4 +14,13 @@ Ejemplos
 #### Encabezado de Nivel 4 
 ##### Encabezado de Nivel 5 
 ###### Encabezado de Nivel 6
-####### Encabezado de Nivel 7 ( Sólo considera los primeros 6 niveles)
+####### Encabezado de Nivel 7 ( Sólo considera los primeros 6 niveles)- Solo 6 son los niveles permitidos, a partir
+de este el maquetado sera ignorado
+
+### 2. Separadores (SEPARATORS)    - Practica 03
+Si desea marcar una separacion mas visual de contenidos podemos utilizarlos
+indicando tres caracteres de "-" continuos, en el maquetado
+
+EJEMPLO:
+---
+*Esto es similar a un tag de < HR > en HTML
