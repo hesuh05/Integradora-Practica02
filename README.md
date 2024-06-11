@@ -84,3 +84,44 @@ Algunas veces necesitaremos subraya texto dentro de la documentación, para ello
 **EJEMPLO:**
 
 <ins> Texto Texto Texto Texto </ins> Texto  Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto *Texto Cursivo* Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto Texto <U>Texto Subrayado</U> Texto.
+
+# Integradora-Practica03
+
+Continuamos con los comandos básicos de Git y Github para el maquetado de la Documentación
+
+### 5. Cuadros para Código o Reseñas (BLOCKQUOTES)
+
+Estos elementos son utilizados para resaltar instrucciones específicas para la instalación, configuración y/o inicialzación o mostrar secciones de código fuente. Se maqueta iniciando el texto con un símbolo de mayor que (\>)
+
+**EJEMPLO:**
+Para listar las carpetas y archivos en desde una terminal de sistema operativo Windows debemos ingresar el comando:
+
+> C:/dir
+
+Después oprimimos la tecla  "Enter".
+
+También podemos ingresar textos multilínea
+
+**EJEMPLO:**
+
+>Aquí se ingresan un conjunto de instrucciones
+
+>para explicar al usuario, cómo instalar el
+
+>software que hemos diseñado.
+
+Y si deseamos inclur viñetas para enlistar pasos podemos utilizar el caracter - dentro del texto a documentar.
+
+**EJEMPLO:**
+**Pasos para Instalar la Base de Datos:**
+
+> - Descargar MySQL Server del Sitio Oficial
+
+> - Instalar el Sistema Gestor de Bases de Datos, definiendo el puerto y contraseña para el usuario ***root***
+
+> - Descargamos el archivo de respaldo de la base de datos (.sql)
+
+> - Restauramos la Base de Datos usando el comando *mysql *
+
+>> C:/Program Files/MySQL/MySQL Server 8.0/bin/mysql -u root -p password \< respaldo.sql
+
