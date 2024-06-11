@@ -179,3 +179,36 @@ Si la documentación lo requiere podemos presentar información en formato de ta
 |Fila 1 Celda 1|Fila 1 Celda 2 |Fila 1 Celda 3|Fila 1 Celda 4 | 
 |Fila 2 Celda 1|Fila 2 Celda 2 |Fila 2 Celda 3|Fila 2 Celda 4 | 
 |Fila 3 Celda 1|Fila 3 Celda 2 |Fila 3 Celda 3|Fila 3 Celda 4 | 
+
+Dado que en el ejemplo pasado usando solo markdown no se puede realizar la fusión de filas debemos utilizar el estandar de HTML, usando los tags: \<th> para los encabezados, \<tr> para las filas y <td> para las celdas, y en ellos utilizar la propiedad de "colspan" y "rowspan"
+
+**EJEMPLO:**
+
+<table> 
+ <th>
+ <td> Encabezado 1 </td>
+ <td> Encabezado 2 </td>
+ <td> Encabezado 3 </td>
+ </th>
+ <tr>
+  <td>Fila 1 Celda 1</td>
+  <td>Fila 1 Celda 1</td>
+  <td>Fila 1 Celda 1</td>
+  <td>Fila 1 Celda 1</td>
+ </tr>
+ <tr>
+  <td>Fila 1 Celda 1</td>
+  <td>Fila 1 Celda 1</td>
+  <td>Fila 1 Celda 1</td>
+ </tr>
+ <tr>
+  <td>Fila 2 Celda 1</td>
+  <td colspan=3>Fila 2 Celda 2 </td>
+ </tr>
+ <tr>
+  <td rowspan=3> Fila 3 Celda 1 </td>
+  <td> Fila 3 Celda 2</td>
+  <td> Fila 3 Celda 3</td>
+  <td> Fila 3 Celda 4</td>
+ </tr>
+</table>
