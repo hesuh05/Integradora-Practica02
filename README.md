@@ -167,3 +167,15 @@ Pero si deseamos poner solo las ligas directas o un correo electrónico podemos 
 Documentación creada por:  ***Jesús Domínguez Ramírez***  
 <230028@utxicotepec.edu.mx>
 <http://www.utxicotepec.edu.mx>
+
+#### 8. Tablas (TABLES)
+
+Si la documentación lo requiere podemos presentar información en formato de tablas con filas y columnas, para maquetarlas podemos utlizar el carácter \| para delimitar las columnas y \- para delimitar las filas.
+
+**EJEMPLO:**
+
+| Encabezado 1 | Encabeado 2 | Encabezado 3 | Encabezado 4 |
+| ------------ | ----------- | ------------ | ------------ |
+|Fila 1 Celda 1|Fila 1 Celda 2 |Fila 1 Celda 3|Fila 1 Celda 4 | 
+|Fila 2 Celda 1|Fila 2 Celda 2 |Fila 2 Celda 3|Fila 2 Celda 4 | 
+|Fila 3 Celda 1|Fila 3 Celda 2 |Fila 3 Celda 3|Fila 3 Celda 4 | 
