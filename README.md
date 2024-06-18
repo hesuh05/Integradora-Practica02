@@ -121,7 +121,7 @@ Y si deseamos inclur viñetas para enlistar pasos podemos utilizar el caracter -
 
 > - Descargamos el archivo de respaldo de la base de datos (.sql)
 
-> - Restauramos la Base de Datos usando el comando *mysql *
+> - Restauramos la Base de Datos usando el comando *mysql*
 
 >> C:/Program Files/MySQL/MySQL Server 8.0/bin/mysql -u root -p password \< respaldo.sql
 
