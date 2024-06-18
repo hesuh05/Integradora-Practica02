@@ -243,3 +243,7 @@ Dado que en el ejemplo pasado usando solo markdown no se puede realizar la fusi√
 </tr>
 
 </table>
+
+#### 9. Imagenes (Images)
+
+![](https://github.com/hesuh05/Integradora-Practica02/blob/main/mushroom.png)
